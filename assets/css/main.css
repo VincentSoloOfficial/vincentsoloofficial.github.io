@@ -1717,6 +1717,10 @@
 						outline: 0;
 					}
 
+					#header nav ul li a img {
+						vertical-align: text-bottom;
+					}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -2164,6 +2168,22 @@
 
 			#contact .box {
 				padding-bottom: 2em;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#intro {
+				background: url("images/overlay.png"), url("../../images/intro_light.jpg");
+			}
+
+			#one {
+				background: url("images/overlay.png"), url("../../images/one_light.jpg");
+			}
+
+			#two {
+				background: url("images/overlay.png"), url("../../images/two_light.jpg");
 			}
 
 		}
