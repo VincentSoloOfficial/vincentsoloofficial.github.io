@@ -29,14 +29,17 @@
 		}
 
 		function checkLg(){
-			if(getCookie("lg") == "fr"){
+			var cookieLg = getCookie("lg");
+			if(!cookieLg){
+				cookieLg = navigator.language;
+			}
+
+			if(cookieLg == "fr"){
 				window.location.replace("./fr/index.html");
 			}
 			else{
 				window.location.replace("./en/index.html");
 			}
-
-
 		}
 
 		</script>
