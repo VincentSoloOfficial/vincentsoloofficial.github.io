@@ -1920,10 +1920,19 @@
 			background-attachment: scroll !important;
 		}
 
-		#player_bandcamp{
+		.links_music{
+			font-size: 0.8em;
+			margin-top: -6pt;
+		}
+		.player_bandcamp{
 			width: 700px;
-			height: 307px;
 			border: 0;
+		}
+		#player_fleur_de_peau{
+			height: 307px;
+		}
+		#player_waytoolong{
+			height: 120px;
 		}
 
 		@media screen and (max-width: 1920px) {
@@ -1951,7 +1960,7 @@
 		}
 
 		@media screen and (max-width: 800px){
-			#player_bandcamp{
+			.player_bandcamp{
 				width: 400px;
 			}
 		}
@@ -2005,7 +2014,7 @@
 				max-width: calc(100% - 1.5em);
 			}
 
-			#player_bandcamp{
+			.player_bandcamp{
 				width: 270px;
 			}
 		}
