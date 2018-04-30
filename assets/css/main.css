@@ -1934,6 +1934,9 @@
 		#player_waytoolong{
 			height: 120px;
 		}
+		#player_oxygen{
+			height: 120px;
+		}
 
 		@media screen and (max-width: 1920px) {
 
