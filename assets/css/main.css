@@ -1931,14 +1931,8 @@
 		#player_fleur_de_peau{
 			height: 307px;
 		}
-		#player_waytoolong{
-			height: 120px;
-		}
-		#player_oxygen{
-			height: 120px;
-		}
-		#player_underthestorm{
-			height: 120px;
+		#player_throughtheclouds{
+			height: 307px;
 		}
 
 		@media screen and (max-width: 1920px) {
