@@ -1664,6 +1664,17 @@
 
 /* Header */
 
+#nav_mobil {
+	display: none;
+	text-align: center;
+}
+#nav_mobil li {
+	display: contents;
+}
+#nav_mobil a {
+	margin: 10px;
+	color: #333333;
+}
 	#header {
 		position: fixed;
 		z-index: 10000;
@@ -1724,7 +1735,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.5em;
+				height: 5em;
 				line-height: 2.5em;
 			}
 
@@ -1743,6 +1754,9 @@
 
 				#header nav {
 					display: none;
+				}
+				#nav_mobil {
+					display: block;
 				}
 
 		}
@@ -1934,6 +1948,13 @@
 		#player_throughtheclouds{
 			height: 307px;
 		}
+		#player_sonofapollo{
+			height: 120px;
+		}
+		#player_winter{
+			height: 120px;
+		}
+
 
 		@media screen and (max-width: 1920px) {
 
