@@ -2036,7 +2036,11 @@
 			}
 
 			.player_bandcamp{
-				width: 270px;
+				width: 400px;
+			}
+
+			.main.style1 {
+				padding: 4em 0 4em 0;
 			}
 		}
 
