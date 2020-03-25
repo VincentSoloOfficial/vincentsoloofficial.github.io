@@ -2042,6 +2042,10 @@
 			.main.style1 {
 				padding: 4em 0 4em 0;
 			}
+
+			.main.style1 > .content {
+				max-width: 100%;
+			}
 		}
 
 /* Footer */
