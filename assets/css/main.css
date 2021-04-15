@@ -1954,6 +1954,9 @@
 		#player_winter{
 			height: 120px;
 		}
+		#player_buildingthesky{
+			height: 120px;
+		}
 
 
 		@media screen and (max-width: 1920px) {
